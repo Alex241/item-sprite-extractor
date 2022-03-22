@@ -14,8 +14,9 @@ repositories {
 }
 
 dependencies {
-    implementation "net.runelite:cache:1.8.9-SNAPSHOT"
+    implementation "net.runelite:cache:1.7.24-SNAPSHOT"
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'org.projectlombok:lombok:1.18.18'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
